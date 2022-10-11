@@ -3,7 +3,7 @@ const mongoose = require('mongoose')
 const ContractSchema = new mongoose.Schema(
     {
         location: {
-            postalCoode:{
+            postalCode:{
                 type: Number,
                 required: [true, "Postal code is required!"],
                 minLength: 5,
