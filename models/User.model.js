@@ -1,7 +1,9 @@
 const mongoose = require('mongoose');
+const bcrypt = require('bcrypt')
 
 const EMAIL_PATTERN =
   /^(([^<>()\[\]\.,;:\s@\"]+(\.[^<>()\[\]\.,;:\s@\"]+)*)|(\".+\"))@(([^<>()[\]\.,;:\s@\"]+\.)+[^<>()[\]\.,;:\s@\"]{2,})$/i;
+const SALT_ROUNDS = 10
 
 const UserSchema = new mongoose.Schema(
     {
@@ -19,7 +21,7 @@ const UserSchema = new mongoose.Schema(
             type: String,
             required: [true, "Email is required!"],
             match: [EMAIL_PATTERN, "Email is not valid!"],
-            unique: true,
+            unique: [true, "Invalid credential"],
         },
         password: {
             type: String,
@@ -29,7 +31,7 @@ const UserSchema = new mongoose.Schema(
     },
     {
         toJSON: {
-          virtuals: true,
+          //virtuals: true,
           transform: (doc, ret) => {
             delete ret.__v;
             delete ret._id;
@@ -40,6 +42,26 @@ const UserSchema = new mongoose.Schema(
         }
       }
 )
+
+UserSchema.pre("save", function (next) {
+    const user = this;
+    if (user.isModified("password")) {
+      bcrypt
+        .hash(user.password, SALT_ROUNDS)
+        .then((hash) => {
+          user.password = hash;
+          next();
+        })
+        .catch((err) => next(err));
+    } else {
+      next();
+    }
+  });
+  
+  UserSchema.methods.checkPassword = function (password) {
+    const user = this;
+    return bcrypt.compare(password, user.password);
+};
 
 const User = mongoose.model("User", UserSchema);
 

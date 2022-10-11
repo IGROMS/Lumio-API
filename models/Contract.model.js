@@ -33,7 +33,24 @@ const ContractSchema = new mongoose.Schema(
         powerPerPanel: {
             type: Number,
             minLength: 0,
+        },
+        user: {
+            type: [mongoose.Schema.Types.objectId],
+            required: true,
+            ref: "User"
         }
+    },
+    {
+        toJSON: {
+            virtuals: true,
+            transform: (doc, ret) => {
+              delete ret.__v;
+              delete ret._id;
+              delete ret.password;
+      
+              return ret
+            }
+          }
     }
 )
 
