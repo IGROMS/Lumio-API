@@ -1,0 +1,32 @@
+[
+    {
+        "location" : {
+            "street": "LaCalle"
+        },
+        "price": 50,
+        "solarPanels": 6,
+        "powerPerPanel": 35
+    },
+    {
+        "location" : {
+            "street": "Paseo de la Chopera"
+        },
+        "price": 90,
+        "solarPanels": 12,
+        "powerPerPanel": 85
+    },
+    {
+        "location" : {
+            "street": "Copera de la Paseo"
+        },
+        "price": 35,
+        "solarPanels": 4,
+        "powerPerPanel": 25
+    },
+    {
+        "location" : {
+            "street": "La Calle mas Bonita"
+        },
+        "price": 49
+    }
+]

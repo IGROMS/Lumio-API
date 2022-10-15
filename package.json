@@ -16,7 +16,8 @@
   "main": "app.js",
   "scripts": {
     "start": "node app.js",
-    "dev": "nodemon ./app.js"
+    "dev": "nodemon ./app.js",
+    "seeds": "node ./data/seeds.js"
   },
   "repository": {
     "type": "git",

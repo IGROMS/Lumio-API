@@ -39,7 +39,6 @@ const ContractSchema = new mongoose.Schema(
             required: true,
             ref: "User"
         },
-        date: Date
     },
     {
         timestamps: true,
