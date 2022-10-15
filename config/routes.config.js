@@ -23,6 +23,7 @@ router.post('/contracts', authMiddleware.isAuthenticated, contractsController.cr
 //TICKETS
 
 router.post('/tickets', authMiddleware.isAuthenticated, ticketsController.create)
+router.post('/tickets/buy/:id', authMiddleware.isAuthenticated, ticketsController.buy)
 
 
 module.exports = router;
