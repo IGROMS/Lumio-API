@@ -9,14 +9,13 @@ module.exports.isAuthenticated = (req, res, next) => {
 
     if (type === 'Bearer') {
       if (token) {
-        // el token es valido?
 
         jwt.verify(token, process.env.JWT_SECRET, (err, decodedToken) => {
-          if (err) { // Error por secreto incorrecto o por expiración, etc.
+          if (err) {
             next(err);
           } else {
             req.currentUser = decodedToken.id;
-            next(); // Todo ha ido bien!
+            next();
           }
         })
       } else {
