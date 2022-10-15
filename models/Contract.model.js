@@ -3,7 +3,7 @@ const mongoose = require('mongoose')
 const ContractSchema = new mongoose.Schema(
     {
         location: {
-            postalCoode:{
+            postalCode:{
                 type: Number,
                 required: [true, "Postal code is required!"],
                 minLength: 5,
@@ -35,12 +35,14 @@ const ContractSchema = new mongoose.Schema(
             minLength: 0,
         },
         user: {
-            type: [mongoose.Schema.Types.objectId],
+            type: mongoose.Schema.Types.ObjectId,
             required: true,
             ref: "User"
-        }
+        },
+        date: Date
     },
     {
+        timestamps: true,
         toJSON: {
             virtuals: true,
             transform: (doc, ret) => {

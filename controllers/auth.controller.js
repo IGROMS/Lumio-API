@@ -23,7 +23,7 @@ module.exports.login = (req, res, next) => {
                             {
                                 id: user.id
                             },
-                            "JWT_SECRET",
+                            process.env.JWT_SECRET,
                             {
                                 expiresIn: "7d"
                             }
