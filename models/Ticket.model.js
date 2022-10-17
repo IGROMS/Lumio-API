@@ -4,9 +4,11 @@ const TicketSchema = mongoose.Schema({
     sellingUser: {
         type: mongoose.Schema.Types.ObjectId,
         required: true,
+        ref: "User"
     },
     buyingUser: {
         type: mongoose.Schema.Types.ObjectId,
+        ref: "User"
     },
     price: {
         type: Number,
@@ -16,6 +18,10 @@ const TicketSchema = mongoose.Schema({
         type: Number,
         required: true,
         min: 0
+    },
+    buyingUserContract: {
+        type: mongoose.Schema.Types.ObjectId,
+        ref: "Contract"
     }
 },
 {
