@@ -19,6 +19,7 @@ router.get('/users/profile', authMiddleware.isAuthenticated, usersController.get
 //CONTRACTS
 
 router.post('/contracts', authMiddleware.isAuthenticated, contractsController.create)
+router.get("/contracts", authMiddleware.isAuthenticated, contractsController.getContracts)
 
 //TICKETS
 
