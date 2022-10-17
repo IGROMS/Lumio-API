@@ -1,32 +1,58 @@
 [
     {
         "location" : {
-            "street": "LaCalle"
+            "postalCode": 28222,
+            "street": "Calle Mimosas",
+            "streetNumber": 2
         },
+        "power": 10,
         "price": 50,
-        "solarPanels": 6,
-        "powerPerPanel": 35
+        "solarPanels": 120,
+        "powerPerPanel": 51,
+        "user": "634a88f52ddf026c40eab7f4"
     },
     {
         "location" : {
-            "street": "Paseo de la Chopera"
+            "postalCode": 28222,
+            "street": "Calle Cedros",
+            "streetNumber": 13
         },
+        "power": 10,
         "price": 90,
-        "solarPanels": 12,
-        "powerPerPanel": 85
+        "user": "634a88f52ddf026c40eab7f5"
     },
     {
         "location" : {
-            "street": "Copera de la Paseo"
+            "postalCode": 28223,
+            "street": "Calle Claveles",
+            "streetNumber": 12
         },
+        "power": 10,
         "price": 35,
-        "solarPanels": 4,
-        "powerPerPanel": 25
+        "solarPanels": 22,
+        "powerPerPanel": 45,
+        "user": "634a88f52ddf026c40eab7f6"
     },
     {
         "location" : {
-            "street": "La Calle mas Bonita"
+            "postalCode": 28222,
+            "street": "Calle Claveles",
+            "streetNumber": 2
         },
-        "price": 49
+        "power": 10,
+        "price": 49,
+        "user": "634a88f52ddf026c40eab7f7"
+    },
+    {
+        "location": {
+            "postalCode": 28221,
+            "street": "Calle Abetos",
+            "streetNumber": 50
+        },
+        "power": 10,
+        "price": 65,
+        "solarPanels": 24,
+        "powerPerPanel": 38,
+        "user": "634a88f52ddf026c40eab7f8"
     }
 ]

@@ -4,8 +4,8 @@ const users = require("./user.data.json")
 const User = require('../models/User.model')
 const contracts = require("./contract.data.json")
 const Contract = require("../models/Contract.model")
-function randomStuff = {
-    
+function randomStuff(n) {
+    Math.floor(Math.random() * n)
 }
 
 require("../config/db.config")
@@ -16,30 +16,22 @@ mongoose.connection.once('open', () => {
         return User.create(users)
       })
       .then(createdUsers => {
-        const randomPostalCode = Math.floor(Math.random() * 100000)
-        const randomPower = Math.floor(Math.random() * 1000)
-        const randomStreetNumber = Math.floor(Math.random() * 100)
-        const randomStreet = contracts.map(c => c.location.street)[Math.floor(Math.random() * 4) ]
-        const randomContract = Math.floor(Math.random() * 4)
-           const contractPromises = createdUsers.map(user =>{
-            return Contract.create({
-                    ...contracts[randomContract], 
-                    location : {
-                      street: randomStreet,
-                      postalCode:  randomPostalCode, 
-                      streetNumber: randomStreetNumber,
-                    },
-                    power: randomPower,
-                    user: user.id})
-            } )
-
-            return Promise.all(contractPromises)
+        /* const randomPostalCode = randomStuff(100000)
+        const randomPower = randomStuff(1000)
+        const randomStreetNumber = randomStuff(100)
+        const randomStreet = contracts.map(c => c.location.street)[randomStuff(4)]
+        const randomContract = randomStuff(4) */
+      
+            return Contract.create(contracts)
+            
       
       })
-      .then(contracts => console.log(contracts))
-
+      .then((contracts) => {console.log(contracts, "connection closed")
+        process.exit(1)
+      })
       .catch(err => {
         console.log(err);
+        process.exit(0)
       })
 })
 
