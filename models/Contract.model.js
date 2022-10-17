@@ -1,5 +1,7 @@
 const mongoose = require('mongoose')
 
+BILLING_ACCOUNT= /\b[A-Z]{2}[0-9]{2}(?:[ ]?[0-9]{4}){4}(?!(?:[ ]?[0-9]){3})(?:[ ]?[0-9]{1,2})?\b/gm
+
 const ContractSchema = new mongoose.Schema(
     {
         location: {
@@ -33,6 +35,11 @@ const ContractSchema = new mongoose.Schema(
         powerPerPanel: {
             type: Number,
             minLength: 0,
+        },
+        billingAccount: {
+            type: String,
+            required: [true, "Billing Account is required"],
+            match: BILLING_ACCOUNT
         },
         user: {
             type: mongoose.Schema.Types.ObjectId,
