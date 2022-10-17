@@ -19,12 +19,13 @@ router.get('/users/profile', authMiddleware.isAuthenticated, usersController.get
 //CONTRACTS
 
 router.post('/contracts', authMiddleware.isAuthenticated, contractsController.create)
-router.get("/contracts", authMiddleware.isAuthenticated, contractsController.getContracts)
+router.get('/contracts', authMiddleware.isAuthenticated, contractsController.getContracts)
 
 //TICKETS
 
 router.post('/tickets', authMiddleware.isAuthenticated, ticketsController.create)
 router.post('/tickets/buy/:id', authMiddleware.isAuthenticated, ticketsController.buy)
+router.get('/tickets', authMiddleware.isAuthenticated, ticketsController.getTickets)
 
 
 module.exports = router;
