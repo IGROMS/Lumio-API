@@ -12,13 +12,19 @@ module.exports.create = (req, res, next) => {
 
 module.exports.buy = (req, res, next) => {
     const { id } = req.params
-    //const userContracts = Contract.find(user: req.currentUser)
-
-    Ticket.findByIdAndUpdate(id, {buyingUser: req.currentUser, buyingUserContract: req.body.contract}, {new: true})
-      .then((ticket) => res.status(201).json(ticket))
-      .catch(err => {
-        console.log(err)
+    Contract.find({user: req.currentUser})
+      .then((userContracts) => {
+        if(userContracts.includes(req.body.contract)){
+          Ticket.findByIdAndUpdate(id, {buyingUser: req.currentUser, buyingUserContract: req.body.contract}, {new: true})
+            .then((ticket) => res.status(201).json(ticket))
+            .catch(err => {
+              console.log(err)
+            })
+        }else {
+          return res.status(401).json({"error": "Select a valid contract"})
+        }
       })
+      .catch(err => console.log(err))
 }
 
 module.exports.getTickets = (req, res, next) => {
