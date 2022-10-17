@@ -1,0 +1,37 @@
+[
+    {
+        "firstName": "Jesus",
+        "lastName": "Gil",
+        "email": "jesus@gil.com",
+        "password": "12345678",
+        "_id": "634a88f52ddf026c40eab7f4"
+    },
+    {
+        "firstName": "Monica",
+        "lastName": "Sanchez",
+        "email": "monica@sanchez.com",
+        "password": "12345678",
+        "_id": "634a88f52ddf026c40eab7f5"
+    },
+    {
+        "firstName": "Marek",
+        "lastName": "Laz",
+        "email": "marek@laz.com",
+        "password": "12345678",
+        "_id": "634a88f52ddf026c40eab7f6"
+    },
+    {
+        "firstName": "Diana",
+        "lastName": "Vazquez",
+        "email": "diana@vazquez.com",
+        "password": "12345678",
+        "_id": "634a88f52ddf026c40eab7f7"
+    },
+    {
+        "firstName": "Florentino",
+        "lastName": "Perez",
+        "email": "tito@perez.com",
+        "password": "12345678",
+        "_id": "634a88f52ddf026c40eab7f8"
+    }
+]

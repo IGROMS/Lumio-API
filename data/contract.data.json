@@ -1,0 +1,58 @@
+[
+    {
+        "location" : {
+            "postalCode": 28222,
+            "street": "Calle Mimosas",
+            "streetNumber": 2
+        },
+        "power": 10,
+        "price": 50,
+        "solarPanels": 120,
+        "powerPerPanel": 51,
+        "user": "634a88f52ddf026c40eab7f4"
+    },
+    {
+        "location" : {
+            "postalCode": 28222,
+            "street": "Calle Cedros",
+            "streetNumber": 13
+        },
+        "power": 10,
+        "price": 90,
+        "user": "634a88f52ddf026c40eab7f5"
+    },
+    {
+        "location" : {
+            "postalCode": 28223,
+            "street": "Calle Claveles",
+            "streetNumber": 12
+        },
+        "power": 10,
+        "price": 35,
+        "solarPanels": 22,
+        "powerPerPanel": 45,
+        "user": "634a88f52ddf026c40eab7f6"
+    },
+    {
+        "location" : {
+            "postalCode": 28222,
+            "street": "Calle Claveles",
+            "streetNumber": 2
+        },
+        "power": 10,
+        "price": 49,
+        "user": "634a88f52ddf026c40eab7f7"
+    },
+    {
+        "location": {
+            "postalCode": 28221,
+            "street": "Calle Abetos",
+            "streetNumber": 50
+        },
+        "power": 10,
+        "price": 65,
+        "solarPanels": 24,
+        "powerPerPanel": 38,
+        "user": "634a88f52ddf026c40eab7f8"
+    }
+]
