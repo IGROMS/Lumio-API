@@ -36,11 +36,11 @@ const ContractSchema = new mongoose.Schema(
             type: Number,
             minLength: 0,
         },
-        billingAccount: {
+        /* billingAccount: {
             type: String,
             required: [true, "Billing Account is required"],
             match: BILLING_ACCOUNT
-        },
+        }, */
         user: {
             type: mongoose.Schema.Types.ObjectId,
             required: true,

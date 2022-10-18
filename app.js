@@ -5,6 +5,7 @@ const mongoose = require('mongoose');
 const logger = require('morgan');
 const createError = require('http-errors');
 const jwt = require("jsonwebtoken");
+const cors = require('cors')
 
 require('./config/db.config');
 
@@ -12,6 +13,16 @@ const app = express();
 
 app.use(logger('dev'));
 app.use(express.json());
+
+app.use(cors({ origin: 'http://localhost:3000' }))
+
+// CORS middleware
+/* app.use((req, res, next) => {
+  res.set("Access-Control-Allow-Origin", "http://localhost:3000");
+  res.set("Access-Control-Allow-Headers", "content-type, Authorization");
+  res.set("Access-Control-Allow-Methods", "GET, POST, PUT, PATCH, POST, DELETE, OPTIONS");
+  next();
+}); */
 
 const routes = require('./config/routes.config');
 app.use('/api', routes)
@@ -51,7 +62,7 @@ app.use((req, res, next) => {
       : undefined;
   
     res.status(error.status).json(data);
-  });
+  });   
 
   app.listen(process.env.PORT || 3001, () => {
     console.log('App in process at', process.env.PORT || 3001)
