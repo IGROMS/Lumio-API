@@ -1,17 +1,12 @@
 const mongoose = require("mongoose")
 
 const BillSchema = mongoose.Schema({
+
+    // GENERAL 
     powerUsed: {
         type: Number,
         required: true,
         min: 0
-    },
-    powerFromTicket: {
-        type: Number,
-        min: 0
-    },
-    powerGenerated: {
-        type: Number,
     },
     price: {
         type: Number,
@@ -22,9 +17,23 @@ const BillSchema = mongoose.Schema({
         required: true,
         ref: "Contract"
     },
-    ticket: {
+    ticket: { // Para comprador/vendedor
         type: mongoose.Schema.Types.ObjectId,
         ref: "Ticket"
+    },
+       
+    // VENDEDOR
+    powerGenerated: { // Para productor
+        type: Number,
+    },
+    powerSold: { // Para vendedor
+        type: Number,
+    },
+    
+    // COMPRADOR
+    powerPeerToPeer: { // Para comprador
+        type: Number,
+        min: 0
     }
 },
 {
