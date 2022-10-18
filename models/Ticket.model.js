@@ -24,6 +24,10 @@ const TicketSchema = mongoose.Schema({
     buyingUserContract: {
         type: mongoose.Schema.Types.ObjectId,
         ref: "Contract"
+    },
+    sellingUserContract: {
+        type: mongoose.Schema.Types.ObjectId,
+        ref: "Contract"
     }
 },
 {
