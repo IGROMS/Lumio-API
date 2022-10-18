@@ -20,10 +20,6 @@ const ContractSchema = new mongoose.Schema(
                 required: [true, "Street number is required!"],
             }
         },
-        power: {
-            type: Number,
-            required: [true, "Power is required!"]
-        },
         price: {
             type: Number,
             required: [true, "Price is required!"]

@@ -4,6 +4,11 @@ const BillSchema = mongoose.Schema({
     powerUsed: {
         type: Number,
         required: true,
+        min: 0
+    },
+    powerFromTicket: {
+        type: Number,
+        min: 0
     },
     powerGenerated: {
         type: Number,
@@ -13,9 +18,13 @@ const BillSchema = mongoose.Schema({
         required: true
     },
     contract: {
-        type: [mongoose.Schema.Types.ObjectId],
+        type: mongoose.Schema.Types.ObjectId,
         required: true,
         ref: "Contract"
+    },
+    ticket: {
+        type: mongoose.Schema.Types.ObjectId,
+        ref: "Ticket"
     }
 },
 {
