@@ -14,3 +14,9 @@ module.exports.getContracts = (req, res, next) => {
       .then(contracts => res.status(201).json(contracts))
       .catch(next)
 }
+
+module.exports.getContract = (req, res, next) => {
+  Contract.findById(req.params.id)
+   .then((contract) => {res.status(201).json(contract)})
+   .catch(next)
+}
