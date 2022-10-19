@@ -5,7 +5,7 @@ const User = require('../models/User.model')
 const contracts = require("./contract.data.json")
 const Contract = require("../models/Contract.model")
 function randomStuff(n) {
-    Math.floor(Math.random() * n)
+  return Math.floor(Math.random() * n)
 }
 
 require("../config/db.config")

@@ -4,6 +4,7 @@ const authController = require("../controllers/auth.controller")
 const contractsController = require("../controllers/contract.controller")
 const authMiddleware = require("../middlewares/auth.middleware")
 const ticketsController = require("../controllers/tickets.controller")
+const billController = require("../controllers/bill.controller")
 
 router.get('/', (req, res, next) => res.json({ ok: true }));
 
@@ -27,6 +28,10 @@ router.get('/contracts/:id', authMiddleware.isAuthenticated, contractsController
 router.post('/tickets', authMiddleware.isAuthenticated, ticketsController.create)
 router.post('/tickets/buy/:id', authMiddleware.isAuthenticated, ticketsController.buy)
 router.get('/tickets', authMiddleware.isAuthenticated, ticketsController.getTickets)
+
+//BILL
+
+router.post('/bill', authMiddleware.isAuthenticated, billController.createBill)
 
 
 module.exports = router;
