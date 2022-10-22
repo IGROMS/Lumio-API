@@ -27,7 +27,8 @@ const TicketSchema = mongoose.Schema({
     },
     sellingUserContract: {
         type: mongoose.Schema.Types.ObjectId,
-        ref: "Contract"
+        ref: "Contract",
+        required: true
     }
 },
 {
