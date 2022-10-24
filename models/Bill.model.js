@@ -8,7 +8,7 @@ const BillSchema = mongoose.Schema({
         required: true,
         min: 0
     },
-    price: {
+    total: {
         type: Number,
         required: true
     },
