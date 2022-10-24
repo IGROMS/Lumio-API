@@ -29,6 +29,7 @@ module.exports.buy = (req, res, next) => {
 
 module.exports.getTickets = (req, res, next) => {
   Ticket.find({buyingUser: null})
+    .populate('sellingUser')
     .then(tickets => res.status(201).json(tickets))
     .catch(next)
 }
