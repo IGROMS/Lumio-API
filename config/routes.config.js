@@ -32,6 +32,7 @@ router.get('/tickets', authMiddleware.isAuthenticated, ticketsController.getTick
 //BILL
 
 router.post('/bill', authMiddleware.isAuthenticated, billController.createBill)
+router.get('/bills', authMiddleware.isAuthenticated, billController.getBills)
 
 
 module.exports = router;

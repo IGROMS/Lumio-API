@@ -5,10 +5,8 @@ const Contract = require('../models/Contract.model')
 /* const { getContracts } = require('./contract.controller')
 const { getCurrentUser } = require('./users.controller') */
 
-//const user = getCurrentUser()
-
 function randomStuff(n) {
-    return Math.floor(Math.random() * n)
+  return Math.floor(Math.random() * n)
 }
 
 module.exports.createBill = () => {
@@ -89,4 +87,17 @@ module.exports.createBill = () => {
         .catch(err => {
             console.log(err)
          })
+}
+
+module.exports.getBills = (req, res, next) => {
+  Contract.find({user: req.currentUser})
+    .then(contracts => {
+      contracts.forEach(contract => {
+        Bill.find({contract: contract.id})
+					.populate('contract')
+          .then(bills => res.status(201).json(bills))
+					.catch(err => console.error(err))
+      })
+  })
+    .catch(next)
 }
