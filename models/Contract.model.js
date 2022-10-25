@@ -11,6 +11,11 @@ const ContractSchema = new mongoose.Schema(
                 minLength: 5,
                 maxLength: 5,
             },
+            city: {
+                type: String,
+                required: [true, "City is required!"],
+                mingLength: 3,
+            },
             street:{
                 type: String,
                 required: [true, "Street is required!"],
