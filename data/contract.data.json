@@ -3,7 +3,8 @@
         "location" : {
             "postalCode": 28222,
             "street": "Calle Mimosas",
-            "streetNumber": 2
+            "streetNumber": 2,
+            "city": "Majadahonda"
         },
         "power": 10,
         "price": 0.35,
@@ -15,7 +16,8 @@
         "location" : {
             "postalCode": 28222,
             "street": "Calle Cedros",
-            "streetNumber": 13
+            "streetNumber": 13,
+            "city": "Majadahonda"
         },
         "power": 10,
         "price": 0.35,
@@ -25,7 +27,8 @@
         "location" : {
             "postalCode": 28223,
             "street": "Calle Claveles",
-            "streetNumber": 12
+            "streetNumber": 12,
+            "city": "Pozuelo de Alarcon"
         },
         "price": 0.35,
         "solarPanels": 22,
@@ -36,7 +39,8 @@
         "location" : {
             "postalCode": 28222,
             "street": "Calle Claveles",
-            "streetNumber": 2
+            "streetNumber": 2,
+            "city": "Majadahonda"
         },
         "price": 0.35,
         "user": "634a88f52ddf026c40eab7f7"
@@ -45,7 +49,8 @@
         "location": {
             "postalCode": 28221,
             "street": "Calle Abetos",
-            "streetNumber": 50
+            "streetNumber": 50,
+            "city": "Majadahonda"
         },
         "price": 0.35,
         "solarPanels": 24,
