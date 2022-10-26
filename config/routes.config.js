@@ -5,6 +5,7 @@ const contractsController = require("../controllers/contract.controller")
 const authMiddleware = require("../middlewares/auth.middleware")
 const ticketsController = require("../controllers/tickets.controller")
 const billController = require("../controllers/bill.controller")
+const weatherController = require("../controllers/weather.controller")
 
 router.get('/', (req, res, next) => res.json({ ok: true }));
 
@@ -33,6 +34,10 @@ router.get('/tickets', authMiddleware.isAuthenticated, ticketsController.getTick
 
 router.post('/bill', authMiddleware.isAuthenticated, billController.createBill)
 router.get('/bills', authMiddleware.isAuthenticated, billController.getBills)
+
+//WEATHER API
+
+router.get('/weather', authMiddleware.isAuthenticated, weatherController.getNowcast)
 
 
 module.exports = router;
