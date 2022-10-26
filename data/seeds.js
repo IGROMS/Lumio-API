@@ -22,7 +22,7 @@ mongoose.connection.once('open', () => {
         const randomStreet = contracts.map(c => c.location.street)[randomStuff(4)]
         const randomContract = randomStuff(4) */
       
-            return Contract.create(contracts)
+        return Contract.create(contracts)
             
       
       })
