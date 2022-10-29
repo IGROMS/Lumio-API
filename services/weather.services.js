@@ -24,7 +24,13 @@ const config = {
     'X-RapidAPI-Host': 'foreca-weather.p.rapidapi.com',
     'X-RapidAPI-Key': 'fd22c19700msh323061179916009p1cd6afjsn71d33392bb38'
   },
-  params: {lang: 'en', country: 'es'},
+  params: {
+    lang: 'en',
+    country: 'es',
+    tempunit: 'C',
+    dataset: 'full',
+    periods: 4
+  },
 }
 
 const getLocationId = async (city) => {
@@ -38,7 +44,7 @@ const getLocationId = async (city) => {
 const getNowcast = async (locationId) => {
   console.log(locationId)
   const response = await axios.get(
-    `https://foreca-weather.p.rapidapi.com/forecast/15minutely/${locationId}`,
+    `https://foreca-weather.p.rapidapi.com/forecast/hourly/${locationId}`,
     config
   );
   return response.data

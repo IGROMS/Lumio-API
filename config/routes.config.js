@@ -37,7 +37,7 @@ router.get('/bills', authMiddleware.isAuthenticated, billController.getBills)
 
 //WEATHER API
 
-router.get('/weather', authMiddleware.isAuthenticated, weatherController.getNowcast)
+router.get('/weather/:city', authMiddleware.isAuthenticated, weatherController.getNowcast)
 
 
 module.exports = router;
