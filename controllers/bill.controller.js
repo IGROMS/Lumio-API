@@ -89,15 +89,18 @@ module.exports.createBill = () => {
          })
 }
 
-module.exports.getBills = (req, res, next) => {
-  Contract.find({user: req.currentUser})
-    .then(contracts => {
-      contracts.forEach(contract => {
-        Bill.find({contract: contract.id})
-					.populate('contract')
-          .then(bills => res.status(201).json(bills))
-					.catch(err => console.error(err))
-      })
-  })
-    .catch(next)
+module.exports.getBills = async (req, res, next) => {
+    const bills = []
+
+    try {
+        const contracts = await Contract.find({user: req.currentUser})
+        await Promise.all(contracts.map(async (contract) => {
+            const response = await Bill.find({contract: contract.id}).populate('contract')
+            response.forEach((bill) => bills.push(bill))
+        }));
+
+        return res.json(bills)
+    } catch (err) {
+        next(err)
+    }
 }

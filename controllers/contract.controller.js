@@ -15,6 +15,12 @@ module.exports.getContracts = (req, res, next) => {
       .catch(next)
 }
 
+module.exports.getPanelContracts = (req, res, next) => {
+    Contract.find({user: req.currentUser, solarPanels: { $gte: 1 }})
+      .then(contracts => res.status(201).json(contracts))
+      .catch(next)
+}
+
 module.exports.getContract = (req, res, next) => {
   Contract.findById(req.params.id)
    .then((contract) => {res.status(201).json(contract)})
