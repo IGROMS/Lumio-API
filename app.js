@@ -25,9 +25,9 @@ app.use(cors({ origin: 'http://localhost:3000' }))
   next();
 }); */
 
-const { createBill } = require('./controllers/bill.controller');
+//const { createBill } = require('./controllers/bill.controller');
 /* const job = schedule.scheduleJob('15 * * * *', createBill)  */
-setTimeout(createBill, 2000)
+//setTimeout(createBill, 2000)
 
 const routes = require('./config/routes.config');
 app.use('/api', routes)
