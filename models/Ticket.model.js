@@ -29,6 +29,14 @@ const TicketSchema = mongoose.Schema({
         type: mongoose.Schema.Types.ObjectId,
         ref: "Contract",
         required: true
+    },
+    startDate: {
+        type: Date,
+        required: true
+    },
+    endDate: {
+        type: Date,
+        required: true
     }
 },
 {
