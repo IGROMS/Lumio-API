@@ -1,5 +1,6 @@
 [
     {
+        "_id": "635cde60b8ef5db94e1619a6",
         "location" : {
             "postalCode": 28222,
             "street": "Calle Mimosas",
@@ -13,6 +14,7 @@
         "user": "634a88f52ddf026c40eab7f4"
     },
     {
+        "_id": "635cde60b8ef5db94e1619a7",
         "location" : {
             "postalCode": 28222,
             "street": "Calle Cedros",
@@ -24,6 +26,7 @@
         "user": "634a88f52ddf026c40eab7f5"
     },
     {
+        "_id": "635cde60b8ef5db94e1619a8",
         "location" : {
             "postalCode": 28223,
             "street": "Calle Claveles",
@@ -36,6 +39,7 @@
         "user": "634a88f52ddf026c40eab7f6"
     },
     {
+        "_id": "635cde60b8ef5db94e1619a9",
         "location" : {
             "postalCode": 28222,
             "street": "Calle Claveles",
@@ -46,6 +50,7 @@
         "user": "634a88f52ddf026c40eab7f7"
     },
     {
+        "_id": "635cde60b8ef5db94e1619aa",
         "location": {
             "postalCode": 28221,
             "street": "Calle Abetos",
