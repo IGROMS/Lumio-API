@@ -26,7 +26,7 @@ mongoose.connection.once('open', () => {
             
       
       })
-      .then((contracts) => {console.log(contracts, "connection closed")
+      .then((contracts) => {console.log("connection closed")
         process.exit(1)
       })
       .catch(err => {

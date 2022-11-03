@@ -42,7 +42,6 @@ const getLocationId = async (city) => {
 };
 
 const getNowcast = async (locationId) => {
-  console.log(locationId)
   const response = await axios.get(
     `https://foreca-weather.p.rapidapi.com/forecast/hourly/${locationId}`,
     config
