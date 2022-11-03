@@ -7,13 +7,11 @@ const { getNowcast, getLocationId} = require('../services/weather.services');
     if (city) {
       try {
         const locationId = await getLocationId(city);
-        console.log(locationId);
         const nowCast = await getNowcast(locationId);
-        console.log(nowCast);
         res.json(nowCast)
 
-      } catch (e) {
-        console.log(e)
+      } catch (err) {
+        console.log(err)
       }
     }
 

@@ -28,6 +28,7 @@ mongoose.connection.once('open', () => {
       })
       .then(() => {
         console.log('bills creadas')
+      .then((contracts) => {console.log("connection closed")
         process.exit(1)
       })
       .catch(err => {
