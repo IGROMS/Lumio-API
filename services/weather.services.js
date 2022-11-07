@@ -1,24 +1,5 @@
 const axios = require('axios')
 
-/* class WeatherService {
-  constructor() {
-    this.api = axios.create({
-      baseURL:  "https://foreca-weather.p.rapidapi.com"
-    });
-  }
-
-  getLocation = (city) => {
-    return this.api.get(`/location/search/${city}`)
-  }
-
-  getNowcast = (locationId) => {
-    return  this.api.get(`/forecast/15minutely/${locationId}`)
-  }
-
-}
-
-module.exports =  WeatherService */
-
 const config = {
   headers: {
     'X-RapidAPI-Host': 'foreca-weather.p.rapidapi.com',

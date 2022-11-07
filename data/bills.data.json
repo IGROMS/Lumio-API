@@ -427,7 +427,7 @@
        "contract":{
           "_id":"635cde60b8ef5db94e1619a8"
        },
-       "powerGenerated":0,
+       "powerGenerated":2,
        "createdAt":"2020-09-01T08:25:09.959Z",
        "__v":0
     },
@@ -1749,7 +1749,7 @@
        "contract":{
           "_id":"635cde60b8ef5db94e1619a6"
        },
-       "powerGenerated":0,
+       "powerGenerated":17,
        "createdAt":"2022-04-01T09:48:41.553Z",
        "__v":0
     },
@@ -1775,7 +1775,7 @@
        "contract":{
           "_id":"635cde60b8ef5db94e1619aa"
        },
-       "powerGenerated":0,
+       "powerGenerated":23,
        "createdAt":"2022-04-01T09:48:41.562Z",
        "__v":0
     },

@@ -25,6 +25,7 @@ const BillSchema = mongoose.Schema({
     // VENDEDOR
     powerGenerated: { // Para productor
         type: Number,
+        min: 0
     },
     powerSold: { // Para vendedor
         type: Number,

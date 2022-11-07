@@ -68,7 +68,7 @@ module.exports.createBill = () => {
                                 powerUsed: powerUsed + 50,
                                 ticket: responses[1][0].id,
                                 contract: contract.id,
-
+																powerGenerated: powerGenerated,
                                 total: ((powerUsed - powerGenerated) * contract.price -
                                 powerSold * 0.15).toFixed(2)
                             })
