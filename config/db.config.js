@@ -4,7 +4,7 @@ const DB_NAME = 'Lumio';
 const URI = process.env.MONGODB_URI || 'mongodb://127.0.0.1:27017';
 
 mongoose
-  .connect(URI, { useNewUrlParser: true, useUnifiedTopology: true })
+  .connect("mongodb+srv://ROMS:ROMS@lumio.vqdxz4a.mongodb.net/?retryWrites=true", { useNewUrlParser: true, useUnifiedTopology: true })
   .then(() => console.info(`Successfully connected to the database`))
   .catch((error) => {
     console.error(`An error ocurred trying to connect to de database`, error);
