@@ -44,7 +44,7 @@ router.get('/weather/:city', authMiddleware.isAuthenticated, weatherController.g
 
 //SEEDS
 
-router.post('/seeds', populateBd)
+router.post('/seeds', (req, res, next) => populateBd())
 
 //router.get('/location/:', authMiddleware.isAuthenticated, locationController.getCoordinates)
 
