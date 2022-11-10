@@ -6,13 +6,15 @@ const contracts = require("./contract.data.json")
 const Contract = require("../models/Contract.model")
 const bills = require("./bills.data.json")
 const Bill   = require ("../models/Bill.model")
+
 function randomStuff(n) {
   return Math.floor(Math.random() * n)
 }
 
 require("../config/db.config")
 
-mongoose.connection.once('open', () => {
+module.exports.populateBd = () => {
+  mongoose.connection.once('open', () => {
     mongoose.connection.db.dropDatabase()
       .then(() => {
         console.log('conectado');
@@ -37,3 +39,4 @@ mongoose.connection.once('open', () => {
         process.exit(0)
       })
 })
+}

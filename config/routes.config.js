@@ -6,7 +6,8 @@ const authMiddleware = require("../middlewares/auth.middleware")
 const ticketsController = require("../controllers/tickets.controller")
 const billController = require("../controllers/bill.controller")
 const weatherController = require("../controllers/weather.controller")
-const locationController = require("../controllers/location.controller")
+const locationController = require("../controllers/location.controller");
+const { populateBd } = require('../data/seeds');
 
 router.get('/', (req, res, next) => res.json({ ok: true }));
 
@@ -41,7 +42,9 @@ router.get('/bills', authMiddleware.isAuthenticated, billController.getBills)
 
 router.get('/weather/:city', authMiddleware.isAuthenticated, weatherController.getNowcast)
 
-//WEATHER API
+//SEEDS
+
+router.post('/seeds', populateBd)
 
 //router.get('/location/:', authMiddleware.isAuthenticated, locationController.getCoordinates)
 
