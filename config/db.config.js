@@ -3,7 +3,6 @@ const mongoose = require('mongoose')
 const DB_NAME = 'Lumio';
 const URI = process.env.MONGODB_URI || 'mongodb://127.0.0.1:27017';
 
-console.log(URI)
 mongoose
   .connect(URI, { useNewUrlParser: true, useUnifiedTopology: true })
   .then(() => console.info(`Successfully connected to the database`))
