@@ -36,3 +36,4 @@ module.exports.getTickets = (req, res, next) => {
     .then(tickets => res.status(201).json(tickets))
     .catch(next)
 }
+
