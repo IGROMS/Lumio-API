@@ -15,6 +15,7 @@ require("../config/db.config")
 
 module.exports.populateBd = () => {
   mongoose.connection.once('open', () => {
+    console.log('entro en open')
     User.create(users)
       .then(() => {
         console.log('usuarios creados');
@@ -27,7 +28,8 @@ module.exports.populateBd = () => {
       .then(() => {
         console.log('bills creadas')
       })
-      .then((contracts) => {console.log("connection closed")
+      .then((contracts) => {
+        console.log("connection closed")
         process.exit(1)
       })
       .catch(err => {
