@@ -5,7 +5,8 @@
             "postalCode": 28222,
             "street": "Calle Mimosas",
             "streetNumber": 2,
-            "city": "Majadahonda"
+            "city": "Majadahonda",
+            "pointer": [40.4446927, -3.8485637]
         },
         "power": 10,
         "price": 0.35,
@@ -19,7 +20,8 @@
             "postalCode": 28222,
             "street": "Calle Cedros",
             "streetNumber": 13,
-            "city": "Majadahonda"
+            "city": "Majadahonda",
+            "pointer":[40.4456940, -3.8481228]
         },
         "power": 10,
         "price": 0.35,
@@ -31,7 +33,8 @@
             "postalCode": 28223,
             "street": "Calle Claveles",
             "streetNumber": 12,
-            "city": "Pozuelo de Alarcon"
+            "city": "Pozuelo de Alarcon",
+            "pointer":[40.4448796, -3.8504604]
         },
         "price": 0.35,
         "solarPanels": 22,
@@ -44,7 +47,8 @@
             "postalCode": 28222,
             "street": "Calle Claveles",
             "streetNumber": 2,
-            "city": "Majadahonda"
+            "city": "Majadahonda",
+            "pointer": [40.4460606, -3.8515900]
         },
         "price": 0.35,
         "user": "634a88f52ddf026c40eab7f7"
@@ -55,11 +59,27 @@
             "postalCode": 28221,
             "street": "Calle Abetos",
             "streetNumber": 50,
-            "city": "Majadahonda"
+            "city": "Majadahonda",
+            "pointer": [40.4479562, -3.8510154]
         },
         "price": 0.35,
         "solarPanels": 24,
         "powerPerPanel": 38,
+        "user": "634a88f52ddf026c40eab7f8"
+    },
+    {
+        "_id": "635cde60b8ef5db94e1619a3",
+        "location" : {
+            "postalCode": 2822215608,
+            "street": "Rua Fornos",
+            "streetNumber": 23,
+            "city": "Miño",
+            "pointer": [43.3771354, -8.1905022]
+        },
+        "power": 10,
+        "price": 0.35,
+        "solarPanels": 120,
+        "powerPerPanel": 51,
         "user": "634a88f52ddf026c40eab7f8"
     }
 ]
