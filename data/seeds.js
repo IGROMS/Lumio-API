@@ -15,11 +15,7 @@ require("../config/db.config")
 
 module.exports.populateBd = () => {
   mongoose.connection.once('open', () => {
-    mongoose.connection.db.dropDatabase()
-      .then(() => {
-        console.log('conectado');
-        return User.create(users)
-      })
+    User.create(users)
       .then(() => {
         console.log('usuarios creados');
         return Contract.create(contracts)
