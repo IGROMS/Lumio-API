@@ -23,6 +23,10 @@ const ContractSchema = new mongoose.Schema(
             streetNumber:{
                 type: Number,
                 required: [true, "Street number is required!"],
+            },
+            pointer: {
+                type: Array,
+                maxLength: 2
             }
         },
         price: {
