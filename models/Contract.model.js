@@ -1,6 +1,6 @@
 const mongoose = require('mongoose')
 
-BILLING_ACCOUNT= /\b[A-Z]{2}[0-9]{2}(?:[ ]?[0-9]{4}){4}(?!(?:[ ]?[0-9]){3})(?:[ ]?[0-9]{1,2})?\b/gm
+BILLING_ACCOUNT= /^([A-Z]{2}[ \-]?[0-9]{2})(?=(?:[ \-]?[A-Z0-9]){9,30}$)((?:[ \-]?[A-Z0-9]{3,5}){2,7})([ \-]?[A-Z0-9]{1,3})?$/gm
 
 const ContractSchema = new mongoose.Schema(
     {
@@ -41,11 +41,11 @@ const ContractSchema = new mongoose.Schema(
             type: Number,
             minLength: 0,
         },
-        /* billingAccount: {
+        billingAccount: {
             type: String,
             required: [true, "Billing Account is required"],
             match: BILLING_ACCOUNT
-        }, */
+        },
         user: {
             type: mongoose.Schema.Types.ObjectId,
             required: true,

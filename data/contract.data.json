@@ -12,6 +12,7 @@
         "price": 0.35,
         "solarPanels": 120,
         "powerPerPanel": 51,
+        "billingAccount": "ES71 0049 4256 1327 1400 1169",
         "user": "634a88f52ddf026c40eab7f4"
     },
     {
@@ -25,6 +26,7 @@
         },
         "power": 10,
         "price": 0.35,
+        "billingAccount": "ES92 2019 4374 1407 1400 1264",
         "user": "634a88f52ddf026c40eab7f5"
     },
     {
@@ -39,6 +41,7 @@
         "price": 0.35,
         "solarPanels": 22,
         "powerPerPanel": 45,
+        "billingAccount": "ES45 3729 3749 0926 3820 3915",
         "user": "634a88f52ddf026c40eab7f6"
     },
     {
@@ -51,6 +54,7 @@
             "pointer": [40.4460606, -3.8515900]
         },
         "price": 0.35,
+        "billingAccount": "ES84 3726 0698 1524 0980 1523",
         "user": "634a88f52ddf026c40eab7f7"
     },
     {
@@ -65,6 +69,7 @@
         "price": 0.35,
         "solarPanels": 24,
         "powerPerPanel": 38,
+        "billingAccount": "ES76 8395 0913 8697 2645 0190",
         "user": "634a88f52ddf026c40eab7f8"
     },
     {
@@ -80,6 +85,7 @@
         "price": 0.35,
         "solarPanels": 120,
         "powerPerPanel": 51,
+        "billingAccount": "ES09 3746 5576 8294 9099 1654",
         "user": "634a88f52ddf026c40eab7f8"
     }
 ]
