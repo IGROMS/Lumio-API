@@ -1741,7 +1741,7 @@
     },
     {
        "powerUsed":95,
-       "total":14,
+       "total":13,
        "contract":{
           "_id":"635cde60b8ef5db94e1619a8"
        },
@@ -1750,195 +1750,173 @@
        "__v":0
     },
     {
-       "powerUsed":81,
-       "total":14,
-       "contract":{
-          "_id":"635cde60b8ef5db94e1619a3"
-       },
-       "powerGenerated":15,
-       "powerSold": 9,
-       "createdAt":"2022-10-01T12:25:53.647Z",
-       "__v":0
-    },
-    {
-       "powerUsed":23,
-       "total":14,
-       "contract":{
-          "_id":"635cde60b8ef5db94e1619a3"
-       },
-       "powerGenerated":12,
-       "powerSold": 3,
-       "createdAt":"2022-10-01T12:25:53.647Z",
-       "__v":0
-    },
-    {
        "powerUsed":45,
-       "total":14,
+       "total":34,
        "contract":{
           "_id":"635cde60b8ef5db94e1619a3"
        },
        "powerGenerated":24,
-       "powerSold": 9,
+       "powerSold": 10,
        "createdAt":"2022-10-01T12:25:53.647Z",
        "__v":0
     },
     {
        "powerUsed":39,
-       "total":14,
+       "total":56,
        "contract":{
           "_id":"635cde60b8ef5db94e1619a3"
        },
        "powerGenerated":13,
-       "powerSold": 6,
+       "powerSold": 15,
        "createdAt":"2022-09-01T12:25:53.647Z",
        "__v":0
     },
     {
        "powerUsed":11,
-       "total":14,
+       "total":29,
        "contract":{
           "_id":"635cde60b8ef5db94e1619a3"
        },
        "powerGenerated":27,
-       "powerSold": 10,
+       "powerSold": 12,
        "createdAt":"2022-08-01T12:25:53.647Z",
        "__v":0
     },
     {
        "powerUsed":35,
-       "total":14,
+       "total":1.54,
        "contract":{
           "_id":"635cde60b8ef5db94e1619a3"
        },
        "powerGenerated":45,
-       "powerSold": 10,
+       "powerSold": 12,
        "createdAt":"2022-07-01T12:25:53.647Z",
        "__v":0
     },
     {
        "powerUsed":72,
-       "total":14,
+       "total":28,
        "contract":{
           "_id":"635cde60b8ef5db94e1619a3"
        },
        "powerGenerated":47,
-       "powerSold": 9,
+       "powerSold": 14,
        "createdAt":"2022-06-01T12:25:53.647Z",
        "__v":0
     },
     {
        "powerUsed":10,
-       "total":14,
+       "total":12,
        "contract":{
           "_id":"635cde60b8ef5db94e1619a3"
        },
        "powerGenerated":34,
-       "powerSold": 14,
+       "powerSold": 12,
        "createdAt":"2022-05-01T12:25:53.647Z",
        "__v":0
     },
     {
        "powerUsed":29,
-       "total":14,
+       "total":65,
        "contract":{
           "_id":"635cde60b8ef5db94e1619a3"
        },
        "powerGenerated":25,
-       "powerSold": 9,
+       "powerSold": 13,
        "createdAt":"2022-04-01T12:25:53.647Z",
        "__v":0
     },
     {
        "powerUsed":18,
-       "total":14,
+       "total":30,
        "contract":{
           "_id":"635cde60b8ef5db94e1619a3"
        },
        "powerGenerated":27,
-       "powerSold": 9,
+       "powerSold": 16,
        "createdAt":"2022-03-01T12:25:53.647Z",
        "__v":0
     },
     {
        "powerUsed":68,
-       "total":14,
+       "total":32,
        "contract":{
           "_id":"635cde60b8ef5db94e1619a3"
        },
        "powerGenerated":19,
-       "powerSold": 3,
+       "powerSold": 12,
        "createdAt":"2022-02-01T12:25:53.647Z",
        "__v":0
     },
     {
        "powerUsed":94,
-       "total":14,
+       "total":34,
        "contract":{
           "_id":"635cde60b8ef5db94e1619a3"
        },
        "powerGenerated":29,
-       "powerSold": 6,
+       "powerSold": 9,
        "createdAt":"2022-01-01T12:25:53.647Z",
        "__v":0
     },
     {
        "powerUsed":73,
-       "total":14,
+       "total":12,
        "contract":{
           "_id":"635cde60b8ef5db94e1619a3"
        },
        "powerGenerated":12,
-       "powerSold": 3,
+       "powerSold": 12,
        "createdAt":"2021-12-01T12:25:53.647Z",
        "__v":0
     },
     {
        "powerUsed":61,
-       "total":14,
+       "total":65,
        "contract":{
           "_id":"635cde60b8ef5db94e1619a3"
        },
        "powerGenerated":32,
-       "powerSold": 7,
+       "powerSold": 10,
        "createdAt":"2021-11-01T12:25:53.647Z",
        "__v":0
     },
     {
        "powerUsed":94,
-       "total":14,
+       "total":22,
        "contract":{
           "_id":"635cde60b8ef5db94e1619a3"
        },
        "powerGenerated":34,
-       "powerSold": 23,
+       "powerSold": 11,
        "createdAt":"2021-10-01T12:25:53.647Z",
        "__v":0
     },
     {
        "powerUsed":83,
-       "total":14,
+       "total":45,
        "contract":{
           "_id":"635cde60b8ef5db94e1619a3"
        },
        "powerGenerated":38,
-       "powerSold": 18,
+       "powerSold": 15,
        "createdAt":"2021-09-01T12:25:53.647Z",
        "__v":0
     },
     {
        "powerUsed":70,
-       "total":14,
+       "total":33,
        "contract":{
           "_id":"635cde60b8ef5db94e1619a3"
        },
        "powerGenerated":28,
-       "powerSold": 15,
+       "powerSold": 17,
        "createdAt":"2021-08-01T12:25:53.647Z",
        "__v":0
     },
     {
        "powerUsed":20,
-       "total":14,
+       "total":65,
        "contract":{
           "_id":"635cde60b8ef5db94e1619a3"
        },
@@ -1949,95 +1927,95 @@
     },
     {
        "powerUsed":49,
-       "total":14,
+       "total":43,
        "contract":{
           "_id":"635cde60b8ef5db94e1619a3"
        },
        "powerGenerated":22,
-       "powerSold": 2,
+       "powerSold": 10,
        "createdAt":"2021-06-01T12:25:53.647Z",
        "__v":0
     },
     {
        "powerUsed":29,
-       "total":14,
+       "total":65,
        "contract":{
           "_id":"635cde60b8ef5db94e1619a3"
        },
        "powerGenerated":17,
-       "powerSold": 8,
+       "powerSold": 12,
        "createdAt":"2021-05-01T12:25:53.647Z",
        "__v":0
     },
     {
        "powerUsed":48,
-       "total":14,
+       "total":48,
        "contract":{
           "_id":"635cde60b8ef5db94e1619a3"
        },
        "powerGenerated":12,
-       "powerSold": 1,
+       "powerSold": 15,
        "createdAt":"2021-04-01T12:25:53.647Z",
        "__v":0
     },
     {
        "powerUsed":76,
-       "total":14,
+       "total":22,
        "contract":{
           "_id":"635cde60b8ef5db94e1619a3"
        },
        "powerGenerated":8,
-       "powerSold": 3,
+       "powerSold": 14,
        "createdAt":"2021-03-01T12:25:53.647Z",
        "__v":0
     },
     {
        "powerUsed":13,
-       "total":14,
+       "total":87,
        "contract":{
           "_id":"635cde60b8ef5db94e1619a3"
        },
        "powerGenerated":9,
-       "powerSold": 1,
+       "powerSold": 13,
        "createdAt":"2021-02-01T12:25:53.647Z",
        "__v":0
     },
     {
        "powerUsed":99,
-       "total":14,
+       "total":44,
        "contract":{
           "_id":"635cde60b8ef5db94e1619a3"
        },
        "powerGenerated":7,
-       "powerSold": 1,
+       "powerSold": 12,
        "createdAt":"2021-01-01T12:25:53.647Z",
        "__v":0
     },
     {
        "powerUsed":29,
-       "total":14,
+       "total":99,
        "contract":{
           "_id":"635cde60b8ef5db94e1619a3"
        },
        "powerGenerated":12,
-       "powerSold": 6,
+       "powerSold": 15,
        "createdAt":"2020-12-01T12:25:53.647Z",
        "__v":0
     },
     {
        "powerUsed":39,
-       "total":14,
+       "total":75,
        "contract":{
           "_id":"635cde60b8ef5db94e1619a3"
        },
        "powerGenerated":13,
-       "powerSold": 6,
+       "powerSold": 13,
        "createdAt":"2020-11-01T12:25:53.647Z",
        "__v":0
     },
     {
        "powerUsed":55,
-       "total":14,
+       "total":73,
        "contract":{
           "_id":"635cde60b8ef5db94e1619a3"
        },
@@ -2048,7 +2026,7 @@
     },
     {
        "powerUsed":29,
-       "total":14,
+       "total":64,
        "contract":{
           "_id":"635cde60b8ef5db94e1619a3"
        },
@@ -2070,18 +2048,18 @@
     },
     {
        "powerUsed":54,
-       "total":14,
+       "total":4,
        "contract":{
           "_id":"635cde60b8ef5db94e1619a3"
        },
        "powerGenerated":23,
-       "powerSold": 9,
+       "powerSold": 10,
        "createdAt":"2020-07-01T12:25:53.647Z",
        "__v":0
     },
     {
        "powerUsed":23,
-       "total":14,
+       "total":62,
        "contract":{
           "_id":"635cde60b8ef5db94e1619a3"
        },
@@ -2092,18 +2070,18 @@
     },
     {
        "powerUsed":65,
-       "total":14,
+       "total":15,
        "contract":{
           "_id":"635cde60b8ef5db94e1619a3"
        },
        "powerGenerated":25,
-       "powerSold": 9,
+       "powerSold": 10,
        "createdAt":"2020-05-01T12:25:53.647Z",
        "__v":0
     },
     {
        "powerUsed":73,
-       "total":14,
+       "total":23,
        "contract":{
           "_id":"635cde60b8ef5db94e1619a3"
        },
@@ -2114,18 +2092,18 @@
     },
     {
        "powerUsed":26,
-       "total":14,
+       "total":18,
        "contract":{
           "_id":"635cde60b8ef5db94e1619a3"
        },
        "powerGenerated":12,
-       "powerSold": 2,
+       "powerSold": 10,
        "createdAt":"2020-03-01T12:25:53.647Z",
        "__v":0
     },
     {
        "powerUsed":73,
-       "total":14,
+       "total":23,
        "contract":{
           "_id":"635cde60b8ef5db94e1619a3"
        },
@@ -2136,7 +2114,7 @@
     },
     {
        "powerUsed":84,
-       "total":14,
+       "total":98,
        "contract":{
           "_id":"635cde60b8ef5db94e1619a3"
        },

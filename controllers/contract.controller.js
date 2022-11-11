@@ -29,6 +29,7 @@ module.exports.getPanelContracts = (req, res, next) => {
 
 module.exports.getContract = (req, res, next) => {
   Contract.findById(req.params.id)
-   .then((contract) => {res.status(201).json(contract)})
-   .catch(next)
+    .populate('user')
+    .then((contract) => {res.status(201).json(contract)})
+    .catch(next)
 }
