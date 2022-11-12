@@ -32,6 +32,7 @@ router.get('/contracts/:id', authMiddleware.isAuthenticated, contractsController
 router.post('/tickets', authMiddleware.isAuthenticated, ticketsController.create)
 router.post('/tickets/buy/:id', authMiddleware.isAuthenticated, ticketsController.buy)
 router.get('/tickets', authMiddleware.isAuthenticated, ticketsController.getTickets)
+router.get('/tickets/all', authMiddleware.isAuthenticated, ticketsController.getAllTickets)
 
 //BILL
 

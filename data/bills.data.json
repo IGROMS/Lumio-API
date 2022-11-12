@@ -34,6 +34,7 @@
        "contract":{
           "_id":"635cde60b8ef5db94e1619a9"
        },
+       "powerPeerToPeer": 12,
        "createdAt":"2020-03-01T08:05:32.038Z",
        "__v":0
     },
@@ -53,6 +54,7 @@
        "contract":{
           "_id":"635cde60b8ef5db94e1619a9"
        },
+       "powerPeerToPeer": 12,
        "createdAt":"2020-04-01T08:19:51.208Z",
        "__v":0
     },
@@ -120,6 +122,7 @@
        "contract":{
           "_id":"635cde60b8ef5db94e1619a9"
        },
+       "powerPeerToPeer": 12,
        "createdAt":"2020-05-01T08:20:01.991Z",
        "__v":0
     },
@@ -160,6 +163,7 @@
        "contract":{
           "_id":"635cde60b8ef5db94e1619a9"
        },
+       "powerPeerToPeer": 12,
        "createdAt":"2020-06-01T08:24:52.939Z",
        "__v":0
     },
@@ -209,6 +213,7 @@
        "contract":{
           "_id":"635cde60b8ef5db94e1619a9"
        },
+       "powerPeerToPeer": 12,
        "createdAt":"2020-07-01T08:25:01.935Z",
        "__v":0
     },
@@ -258,6 +263,7 @@
        "contract":{
           "_id":"635cde60b8ef5db94e1619a9"
        },
+       "powerPeerToPeer": 12,
        "createdAt":"2020-08-01T08:25:07.432Z",
        "__v":0
     },
@@ -296,6 +302,7 @@
        "contract":{
           "_id":"635cde60b8ef5db94e1619a9"
        },
+       "powerPeerToPeer": 12,
        "createdAt":"2020-09-01T08:25:09.95Z",
 
        "__v":0
@@ -354,6 +361,7 @@
        "contract":{
           "_id":"635cde60b8ef5db94e1619a9"
        },
+       "powerPeerToPeer": 12,
        "createdAt":"2020-10-01T08:25:12.97Z",
 
        "__v":0
@@ -404,6 +412,7 @@
        "contract":{
           "_id":"635cde60b8ef5db94e1619a9"
        },
+       "powerPeerToPeer": 12,
        "createdAt":"2020-11-01T08:25:16.458Z",
        "__v":0
     },
@@ -442,6 +451,7 @@
        "contract":{
           "_id":"635cde60b8ef5db94e1619a9"
        },
+       "powerPeerToPeer": 12,
        "createdAt":"2020-12-01T08:27:12.941Z",
        "__v":0
     },
@@ -500,6 +510,7 @@
        "contract":{
           "_id":"635cde60b8ef5db94e1619a9"
        },
+       "powerPeerToPeer": 12,
        "createdAt":"2021-01-01T08:28:25.308Z",
        "__v":0
     },
@@ -538,6 +549,7 @@
        "contract":{
           "_id":"635cde60b8ef5db94e1619a9"
        },
+       "powerPeerToPeer": 12,
        "createdAt":"2021-02-01T08:28:32.733Z",
        "__v":0
     },
@@ -626,6 +638,7 @@
        "contract":{
           "_id":"635cde60b8ef5db94e1619a9"
        },
+       "powerPeerToPeer": 12,
        "createdAt":"2021-03-01T09:03:27.863Z",
        "__v":0
     },
@@ -664,6 +677,7 @@
        "contract":{
           "_id":"635cde60b8ef5db94e1619a9"
        },
+       "powerPeerToPeer": 12,
        "createdAt":"2021-04-01T09:14:46.504Z",
        "__v":0
     },
@@ -743,6 +757,7 @@
        "contract":{
           "_id":"635cde60b8ef5db94e1619a9"
        },
+       "powerPeerToPeer": 12,
        "createdAt":"2021-05-01T09:42:20.684Z",
        "__v":0
     },
@@ -801,6 +816,7 @@
        "contract":{
           "_id":"635cde60b8ef5db94e1619a9"
        },
+       "powerPeerToPeer": 12,
        "createdAt":"2021-06-01T09:46:44.135Z",
        "__v":0
     },
@@ -830,6 +846,7 @@
        "contract":{
           "_id":"635cde60b8ef5db94e1619a9"
        },
+       "powerPeerToPeer": 12,
        "createdAt":"2021-07-01T09:46:47.641Z",
        "__v":0
     },
@@ -918,6 +935,7 @@
        "contract":{
           "_id":"635cde60b8ef5db94e1619a9"
        },
+       "powerPeerToPeer": 12,
        "createdAt":"2021-08-01T09:46:52.919Z",
        "__v":0
     },
@@ -976,6 +994,7 @@
        "contract":{
           "_id":"635cde60b8ef5db94e1619a9"
        },
+       "powerPeerToPeer": 12,
        "createdAt":"2021-09-01T09:46:56.931Z",
        "__v":0
     },
@@ -1024,6 +1043,7 @@
        "contract":{
           "_id":"635cde60b8ef5db94e1619a9"
        },
+       "powerPeerToPeer": 12,
        "createdAt":"2021-10-01T09:47:04.871Z",
        "__v":0
     },
@@ -1073,6 +1093,7 @@
        "contract":{
           "_id":"635cde60b8ef5db94e1619a9"
        },
+       "powerPeerToPeer": 12,
        "createdAt":"2021-11-01T09:47:11.638Z",
        "__v":0
     },
@@ -1131,6 +1152,7 @@
        "contract":{
           "_id":"635cde60b8ef5db94e1619a9"
        },
+       "powerPeerToPeer": 12,
        "createdAt":"2021-12-01T09:48:19.058Z",
        "__v":0
     },
@@ -1209,6 +1231,7 @@
        "contract":{
           "_id":"635cde60b8ef5db94e1619a9"
        },
+       "powerPeerToPeer": 12,
        "createdAt":"2022-01-01T09:48:22.542Z",
        "__v":0
     },
@@ -1267,6 +1290,7 @@
        "contract":{
           "_id":"635cde60b8ef5db94e1619a9"
        },
+       "powerPeerToPeer": 12,
        "createdAt":"2022-02-01T09:48:28.812Z",
        "__v":0
     },
@@ -1306,6 +1330,7 @@
        "contract":{
           "_id":"635cde60b8ef5db94e1619a9"
        },
+       "powerPeerToPeer": 12,
        "createdAt":"2022-03-01T09:48:38.619Z",
        "__v":0
     },
@@ -1345,6 +1370,7 @@
        "contract":{
           "_id":"635cde60b8ef5db94e1619a9"
        },
+       "powerPeerToPeer": 12,
        "createdAt":"2022-04-01T09:48:41.56Z",
 
        "__v":0
@@ -1433,6 +1459,7 @@
        "contract":{
           "_id":"635cde60b8ef5db94e1619a9"
        },
+       "powerPeerToPeer": 12,
        "createdAt":"2022-05-01T09:48:53.175Z",
        "__v":0
     },
@@ -1462,6 +1489,7 @@
        "contract":{
           "_id":"635cde60b8ef5db94e1619a9"
        },
+       "powerPeerToPeer": 12,
        "createdAt":"2022-06-01T09:50:29.05Z",
 
        "__v":0
@@ -1560,6 +1588,7 @@
        "contract":{
           "_id":"635cde60b8ef5db94e1619a9"
        },
+       "powerPeerToPeer": 12,
        "createdAt":"2022-07-01T09:50:36.548Z",
        "__v":0
     },
@@ -1618,6 +1647,7 @@
        "contract":{
           "_id":"635cde60b8ef5db94e1619a9"
        },
+       "powerPeerToPeer": 12,
        "createdAt":"2022-08-01T09:51:10.693Z",
        "__v":0
     },
@@ -1657,6 +1687,7 @@
        "contract":{
           "_id":"635cde60b8ef5db94e1619a9"
        },
+       "powerPeerToPeer": 12,
        "createdAt":"2022-09-01T11:56:27.81Z",
 
        "__v":0
@@ -1696,6 +1727,7 @@
        "contract":{
           "_id":"635cde60b8ef5db94e1619a9"
        },
+       "powerPeerToPeer": 12,
        "createdAt":"2022-10-01T12:25:53.638Z",
        "__v":0
     },

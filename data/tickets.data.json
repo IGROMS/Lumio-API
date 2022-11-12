@@ -1,0 +1,38 @@
+[
+  {
+    "sellingUser": "634a88f52ddf026c40eab7f4", 
+    "price": 0.14,
+    "quantity": 20,
+    "sellingUserContract": "635cde60b8ef5db94e1619a6",
+    "startDate": "2022-11-18T00:00:00.000+00:00",
+    "endDate": "2022-11-20T00:00:00.000+00:00"
+  },
+  {
+    "sellingUser": "634a88f52ddf026c40eab7f6", 
+    "price": 0.14,
+    "quantity": 20,
+    "sellingUserContract": "635cde60b8ef5db94e1619a8",
+    "startDate": "2022-11-20T00:00:00.000+00:00",
+    "endDate": "2022-11-30T00:00:00.000+00:00"
+  },
+  {
+    "sellingUser": "634a88f52ddf026c40eab7f8", 
+    "buyingUser": "634a88f52ddf026c40eab7f7",
+    "price": 0.14,
+    "quantity": 170,
+    "buyingUserContract": "635cde60b8ef5db94e1619a9",
+    "sellingUserContract": "635cde60b8ef5db94e1619a3",
+    "startDate": "2021-11-12T00:00:00.000+00:00",
+    "endDate": "2022-11-12T00:00:00.000+00:00"
+  },
+  {
+    "sellingUser": "634a88f52ddf026c40eab7f8", 
+    "buyingUser": "634a88f52ddf026c40eab7f7",
+    "price": 0.14,
+    "quantity": 170,
+    "buyingUserContract": "635cde60b8ef5db94e1619a9",
+    "sellingUserContract": "635cde60b8ef5db94e1619a3",
+    "startDate": "2020-11-12T00:00:00.000+00:00",
+    "endDate": "2021-11-12T00:00:00.000+00:00"
+  }
+]
