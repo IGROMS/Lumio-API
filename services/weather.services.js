@@ -4,7 +4,7 @@ const config = {
   headers: {
     'X-RapidAPI-Host': 'foreca-weather.p.rapidapi.com',
     
-    //'X-RapidAPI-Key': 'e4e53dffe9msh6fe2e7535b47741p1d7e18jsn6a5fdab7c557'
+    //'X-RapidAPI-Key': process.env.WEATHER_KEY
   },
   params: {
     lang: 'en',
