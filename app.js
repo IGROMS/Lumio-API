@@ -15,8 +15,8 @@ const app = express();
 app.use(logger('dev'));
 app.use(express.json());
 
-//app.use(cors({ origin: 'https://lumio-sage.vercel.app' }))
-app.use(cors({ origin: 'http://localhost:3000 ' }))
+app.use(cors({ origin: 'https://lumio-sage.vercel.app' }))
+//app.use(cors({ origin: 'http://localhost:3000 ' }))
 
 // CORS middleware
 /* app.use((req, res, next) => {
